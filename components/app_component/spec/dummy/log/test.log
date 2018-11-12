@@ -1,0 +1,1762 @@
+  [1m[35m (2.7ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/app_component/teams" for 127.0.0.1 at 2018-11-05 21:33:43 -0600
+Processing by AppComponent::TeamsController#index as HTML
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/index.html.slim within layouts/app_component/application
+  [1m[36mAppComponent::Team Load (0.4ms)[0m  [1m[34mSELECT "app_component_teams".* FROM "app_component_teams"[0m
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/index.html.slim within layouts/app_component/application (20.4ms)
+Completed 500 Internal Server Error in 63ms (ActiveRecord: 0.4ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by AppComponent::WelcomeController#show as HTML
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/welcome/show.html.slim within layouts/app_component/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/welcome/show.html.slim within layouts/app_component/application (0.3ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 29ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by AppComponent::TeamsController#new as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.8ms)[0m  [1m[36mbegin transaction[0m
+Processing by AppComponent::TeamsController#new as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.8ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (1.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.8ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (2.9ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (1.8ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by AppComponent::TeamsController#new as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by AppComponent::TeamsController#new as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (1.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (1.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.9ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (1.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.8ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.9ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by AppComponent::WelcomeController#show as HTML
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/welcome/show.html.slim within layouts/app_component/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/welcome/show.html.slim within layouts/app_component/application (0.4ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 42ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (7.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/app_component/teams" for 127.0.0.1 at 2018-11-07 09:08:47 -0600
+Processing by AppComponent::TeamsController#index as HTML
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/index.html.slim within layouts/app_component/application
+  [1m[36mAppComponent::Team Load (0.5ms)[0m  [1m[34mSELECT "app_component_teams".* FROM "app_component_teams"[0m
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/index.html.slim within layouts/app_component/application (22.7ms)
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 0.5ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (7.9ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.2ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by AppComponent::TeamsController#new as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by AppComponent::TeamsController#new as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (3.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (2.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (1.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by AppComponent::WelcomeController#show as HTML
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/welcome/show.html.slim within layouts/app_component/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/welcome/show.html.slim within layouts/app_component/application (1.4ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 93ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/app_component/teams" for 127.0.0.1 at 2018-11-07 09:19:47 -0600
+Processing by AppComponent::TeamsController#index as HTML
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/index.html.slim within layouts/app_component/application
+  [1m[36mAppComponent::Team Load (0.8ms)[0m  [1m[34mSELECT "app_component_teams".* FROM "app_component_teams"[0m
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/index.html.slim within layouts/app_component/application (38.4ms)
+Completed 500 Internal Server Error in 68ms (ActiveRecord: 0.8ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (2.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (2.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateAppComponentTeams (20180620150330)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "app_component_teams" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180620150330"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateAppComponentGames (20180620150332)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "app_component_games" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "date" datetime, "location" varchar, "first_team_id" integer, "second_team_id" integer, "winning_team" integer, "first_team_score" integer, "second_team_score" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180620150332"]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "test"], ["created_at", "2018-11-07 15:20:13.582681"], ["updated_at", "2018-11-07 15:20:13.582681"]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (2.9ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.4ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (3.1ms)[0m  [1m[31mDELETE FROM "ar_internal_metadata";[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (1.0ms)[0m  [1m[31mDELETE FROM sqlite_sequence where name = 'ar_internal_metadata';[0m
+  [1m[35m (1.7ms)[0m  [1m[31mDELETE FROM "app_component_teams";[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.4ms)[0m  [1m[31mDELETE FROM sqlite_sequence where name = 'app_component_teams';[0m
+  [1m[35m (1.6ms)[0m  [1m[31mDELETE FROM "app_component_games";[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.3ms)[0m  [1m[31mDELETE FROM sqlite_sequence where name = 'app_component_games';[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (3.9ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "UofL"], ["created_at", "2018-11-07 15:20:24.974586"], ["updated_at", "2018-11-07 15:20:24.974586"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "UK"], ["created_at", "2018-11-07 15:20:25.011345"], ["updated_at", "2018-11-07 15:20:25.011345"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/app_component/games" for 127.0.0.1 at 2018-11-07 09:20:25 -0600
+Processing by AppComponent::GamesController#index as HTML
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/games/index.html.slim within layouts/app_component/application
+  [1m[36mAppComponent::Game Load (0.2ms)[0m  [1m[34mSELECT "app_component_games".* FROM "app_component_games"[0m
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/games/index.html.slim within layouts/app_component/application (65.9ms)
+Completed 200 OK in 1475ms (Views: 1461.1ms | ActiveRecord: 0.8ms)
+Started GET "/app_component/games/new" for 127.0.0.1 at 2018-11-07 09:20:26 -0600
+Processing by AppComponent::GamesController#new as HTML
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/games/new.html.slim within layouts/app_component/application
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/games/_form.html.slim (86.2ms)
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/games/new.html.slim within layouts/app_component/application (105.0ms)
+Completed 200 OK in 151ms (Views: 115.7ms | ActiveRecord: 1.2ms)
+Started POST "/app_component/games" for 127.0.0.1 at 2018-11-07 09:20:26 -0600
+Processing by AppComponent::GamesController#create as HTML
+  Parameters: {"utf8"=>"✓", "game"=>{"date(1i)"=>"2018", "date(2i)"=>"11", "date(3i)"=>"7", "date(4i)"=>"15", "date(5i)"=>"20", "location"=>"Home", "first_team_id"=>"1", "second_team_id"=>"2", "winning_team"=>"1", "first_team_score"=>"2", "second_team_score"=>"1"}, "commit"=>"Create Game"}
+  [1m[35m (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mAppComponent::Team Load (0.5ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAppComponent::Team Load (0.4ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "app_component_games" ("date", "location", "first_team_id", "second_team_id", "winning_team", "first_team_score", "second_team_score", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["date", "2018-11-07 15:20:00"], ["location", "Home"], ["first_team_id", 1], ["second_team_id", 2], ["winning_team", 1], ["first_team_score", 2], ["second_team_score", 1], ["created_at", "2018-11-07 15:20:26.861800"], ["updated_at", "2018-11-07 15:20:26.861800"]]
+  [1m[35m (0.8ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/app_component/games/1
+Completed 302 Found in 140ms (ActiveRecord: 2.7ms)
+Started GET "/app_component/games/1" for 127.0.0.1 at 2018-11-07 09:20:26 -0600
+Processing by AppComponent::GamesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAppComponent::Game Load (1.1ms)[0m  [1m[34mSELECT  "app_component_games".* FROM "app_component_games" WHERE "app_component_games"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/games/show.html.slim within layouts/app_component/application
+  [1m[36mAppComponent::Team Load (0.3ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAppComponent::Team Load (0.6ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/games/show.html.slim within layouts/app_component/application (35.0ms)
+Completed 200 OK in 66ms (Views: 46.0ms | ActiveRecord: 2.1ms)
+  [1m[35m (3.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by AppComponent::TeamsController#create as HTML
+  Parameters: {"team"=>{"created_at"=>"", "id"=>"", "name"=>"", "updated_at"=>""}}
+Unpermitted parameters: :created_at, :id, :updated_at
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/new.html.slim within layouts/app_component/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/new.html.slim within layouts/app_component/application (0.7ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 82ms (Views: 77.7ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by AppComponent::TeamsController#create as HTML
+  Parameters: {"team"=>{"created_at"=>"", "id"=>"", "name"=>"", "updated_at"=>""}}
+Unpermitted parameters: :created_at, :id, :updated_at
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/new.html.slim within layouts/app_component/application
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/new.html.slim within layouts/app_component/application (0.3ms)
+Completed 200 OK in 7ms (Views: 4.0ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "app_component_teams"[0m
+Processing by AppComponent::TeamsController#create as HTML
+  Parameters: {"team"=>{"created_at"=>"", "id"=>"", "name"=>"Some name 1", "updated_at"=>""}}
+Unpermitted parameters: :created_at, :id, :updated_at
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:27.154394"], ["updated_at", "2018-11-07 15:20:27.154394"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/app_component/teams
+Completed 302 Found in 4ms (ActiveRecord: 0.7ms)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "app_component_teams"[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+Processing by AppComponent::TeamsController#create as HTML
+  Parameters: {"team"=>{"created_at"=>"", "id"=>"", "name"=>"Some name 1", "updated_at"=>""}}
+Unpermitted parameters: :created_at, :id, :updated_at
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:27.169658"], ["updated_at", "2018-11-07 15:20:27.169658"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/app_component/teams
+Completed 302 Found in 6ms (ActiveRecord: 1.0ms)
+  [1m[35m (0.7ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+Processing by AppComponent::TeamsController#create as HTML
+  Parameters: {"team"=>{"created_at"=>"", "id"=>"", "name"=>"Some name 1", "updated_at"=>""}}
+Unpermitted parameters: :created_at, :id, :updated_at
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:27.185008"], ["updated_at", "2018-11-07 15:20:27.185008"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/app_component/teams
+Completed 302 Found in 5ms (ActiveRecord: 0.9ms)
+  [1m[35m (0.9ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:27.196424"], ["updated_at", "2018-11-07 15:20:27.196424"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by AppComponent::TeamsController#update as HTML
+  Parameters: {"team"=>{"created_at"=>"", "id"=>"", "name"=>"", "updated_at"=>""}, "id"=>"1"}
+  [1m[36mAppComponent::Team Load (0.1ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: :created_at, :id, :updated_at
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/edit.html.slim within layouts/app_component/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/edit.html.slim within layouts/app_component/application (1.5ms)
+Completed 200 OK in 28ms (Views: 24.0ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.9ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:27.236696"], ["updated_at", "2018-11-07 15:20:27.236696"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by AppComponent::TeamsController#update as HTML
+  Parameters: {"team"=>{"created_at"=>"", "id"=>"", "name"=>"", "updated_at"=>""}, "id"=>"1"}
+  [1m[36mAppComponent::Team Load (0.1ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: :created_at, :id, :updated_at
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/edit.html.slim within layouts/app_component/application
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/edit.html.slim within layouts/app_component/application (0.1ms)
+Completed 200 OK in 4ms (Views: 0.7ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:27.249430"], ["updated_at", "2018-11-07 15:20:27.249430"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by AppComponent::TeamsController#update as HTML
+  Parameters: {"team"=>{"created_at"=>"", "id"=>"", "name"=>"Some name 2", "updated_at"=>""}, "id"=>"1"}
+  [1m[36mAppComponent::Team Load (0.1ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: :created_at, :id, :updated_at
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "app_component_teams" SET "name" = ?, "updated_at" = ? WHERE "app_component_teams"."id" = ?[0m  [["name", "Some name 2"], ["updated_at", "2018-11-07 15:20:27.258345"], ["id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/app_component/teams
+Completed 302 Found in 7ms (ActiveRecord: 0.7ms)
+  [1m[35m (1.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:27.271267"], ["updated_at", "2018-11-07 15:20:27.271267"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by AppComponent::TeamsController#update as HTML
+  Parameters: {"team"=>{"name"=>"new team name"}, "id"=>"1"}
+  [1m[36mAppComponent::Team Load (0.2ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "app_component_teams" SET "name" = ?, "updated_at" = ? WHERE "app_component_teams"."id" = ?[0m  [["name", "new team name"], ["updated_at", "2018-11-07 15:20:27.279653"], ["id", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/app_component/teams
+Completed 302 Found in 9ms (ActiveRecord: 1.0ms)
+  [1m[36mAppComponent::Team Load (0.7ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.8ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.8ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:27.295562"], ["updated_at", "2018-11-07 15:20:27.295562"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by AppComponent::TeamsController#update as HTML
+  Parameters: {"team"=>{"created_at"=>"", "id"=>"", "name"=>"Some name 2", "updated_at"=>""}, "id"=>"1"}
+  [1m[36mAppComponent::Team Load (0.1ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: :created_at, :id, :updated_at
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "app_component_teams" SET "name" = ?, "updated_at" = ? WHERE "app_component_teams"."id" = ?[0m  [["name", "Some name 2"], ["updated_at", "2018-11-07 15:20:27.312335"], ["id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/app_component/teams
+Completed 302 Found in 6ms (ActiveRecord: 0.6ms)
+  [1m[35m (5.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:27.328526"], ["updated_at", "2018-11-07 15:20:27.328526"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by AppComponent::TeamsController#index as HTML
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/index.html.slim within layouts/app_component/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/index.html.slim within layouts/app_component/application (0.4ms)
+Completed 200 OK in 39ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[36mAppComponent::Team Load (0.3ms)[0m  [1m[34mSELECT "app_component_teams".* FROM "app_component_teams"[0m
+  [1m[35m (0.8ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "myteam x"], ["created_at", "2018-11-07 15:20:27.386017"], ["updated_at", "2018-11-07 15:20:27.386017"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "myteam x"], ["created_at", "2018-11-07 15:20:27.388497"], ["updated_at", "2018-11-07 15:20:27.388497"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by AppComponent::TeamsController#index as HTML
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/index.html.slim within layouts/app_component/application
+  [1m[36mAppComponent::Team Load (0.2ms)[0m  [1m[34mSELECT "app_component_teams".* FROM "app_component_teams"[0m
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/index.html.slim within layouts/app_component/application (8.5ms)
+Completed 200 OK in 22ms (Views: 16.3ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.8ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by AppComponent::TeamsController#new as HTML
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/new.html.slim within layouts/app_component/application
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/new.html.slim within layouts/app_component/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by AppComponent::TeamsController#new as HTML
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/new.html.slim within layouts/app_component/application
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/_form.html.slim (9.2ms)
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/new.html.slim within layouts/app_component/application (24.4ms)
+Completed 200 OK in 34ms (Views: 28.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:27.468025"], ["updated_at", "2018-11-07 15:20:27.468025"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by AppComponent::TeamsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAppComponent::Team Load (0.2ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/edit.html.slim within layouts/app_component/application
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/edit.html.slim within layouts/app_component/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:27.482033"], ["updated_at", "2018-11-07 15:20:27.482033"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by AppComponent::TeamsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAppComponent::Team Load (0.1ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/edit.html.slim within layouts/app_component/application
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/_form.html.slim (3.0ms)
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/edit.html.slim within layouts/app_component/application (12.2ms)
+Completed 200 OK in 27ms (Views: 16.2ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.7ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:27.521240"], ["updated_at", "2018-11-07 15:20:27.521240"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "app_component_teams"[0m
+Processing by AppComponent::TeamsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAppComponent::Team Load (0.2ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[31mDELETE FROM "app_component_teams" WHERE "app_component_teams"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/app_component/teams
+Completed 302 Found in 3ms (ActiveRecord: 0.5ms)
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "app_component_teams"[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:27.532991"], ["updated_at", "2018-11-07 15:20:27.532991"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by AppComponent::TeamsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAppComponent::Team Load (0.1ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[31mDELETE FROM "app_component_teams" WHERE "app_component_teams"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/app_component/teams
+Completed 302 Found in 4ms (ActiveRecord: 0.6ms)
+  [1m[35m (1.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:27.554851"], ["updated_at", "2018-11-07 15:20:27.554851"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 2"], ["created_at", "2018-11-07 15:20:27.558609"], ["updated_at", "2018-11-07 15:20:27.558609"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by AppComponent::PredictionsController#new as HTML
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/predictions/new.html.slim within layouts/app_component/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/predictions/new.html.slim within layouts/app_component/application (0.4ms)
+Completed 200 OK in 33ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+  [1m[36mAppComponent::Team Load (0.2ms)[0m  [1m[34mSELECT "app_component_teams".* FROM "app_component_teams"[0m
+  [1m[35m (0.9ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:27.603403"], ["updated_at", "2018-11-07 15:20:27.603403"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 2"], ["created_at", "2018-11-07 15:20:27.605459"], ["updated_at", "2018-11-07 15:20:27.605459"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by AppComponent::PredictionsController#create as HTML
+  Parameters: {"first_team"=>{"id"=>"1"}, "second_team"=>{"id"=>"2"}}
+  [1m[36mAppComponent::Team Load (0.2ms)[0m  [1m[34mSELECT "app_component_teams".* FROM "app_component_teams"[0m
+  [1m[36mAppComponent::Game Load (0.3ms)[0m  [1m[34mSELECT "app_component_games".* FROM "app_component_games"[0m
+  [1m[36mAppComponent::Team Load (0.1ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAppComponent::Team Load (0.1ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/predictions/create.html.slim within layouts/app_component/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/predictions/create.html.slim within layouts/app_component/application (2.4ms)
+Completed 200 OK in 28ms (Views: 4.2ms | ActiveRecord: 0.7ms)
+  [1m[35m (0.7ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by AppComponent::WelcomeController#show as HTML
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/welcome/show.html.slim within layouts/app_component/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/welcome/show.html.slim within layouts/app_component/application (0.5ms)
+Completed 200 OK in 32ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/app_component/teams" for 127.0.0.1 at 2018-11-07 09:20:27 -0600
+Processing by AppComponent::TeamsController#index as HTML
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/index.html.slim within layouts/app_component/application
+  [1m[36mAppComponent::Team Load (0.2ms)[0m  [1m[34mSELECT "app_component_teams".* FROM "app_component_teams"[0m
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/index.html.slim within layouts/app_component/application (1.1ms)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.2ms)
+Started GET "/app_component/teams/new" for 127.0.0.1 at 2018-11-07 09:20:27 -0600
+Processing by AppComponent::TeamsController#new as HTML
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/new.html.slim within layouts/app_component/application
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/_form.html.slim (0.9ms)
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/new.html.slim within layouts/app_component/application (1.2ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+Started POST "/app_component/teams" for 127.0.0.1 at 2018-11-07 09:20:27 -0600
+Processing by AppComponent::TeamsController#create as HTML
+  Parameters: {"utf8"=>"✓", "team"=>{"name"=>"UofL"}, "commit"=>"Create Team"}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "UofL"], ["created_at", "2018-11-07 15:20:27.698454"], ["updated_at", "2018-11-07 15:20:27.698454"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/app_component/teams
+Completed 302 Found in 5ms (ActiveRecord: 1.2ms)
+Started GET "/app_component/teams" for 127.0.0.1 at 2018-11-07 09:20:27 -0600
+Processing by AppComponent::TeamsController#index as HTML
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/index.html.slim within layouts/app_component/application
+  [1m[36mAppComponent::Team Load (0.2ms)[0m  [1m[34mSELECT "app_component_teams".* FROM "app_component_teams"[0m
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/index.html.slim within layouts/app_component/application (1.3ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.2ms)
+Started GET "/app_component/teams/new" for 127.0.0.1 at 2018-11-07 09:20:27 -0600
+Processing by AppComponent::TeamsController#new as HTML
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/new.html.slim within layouts/app_component/application
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/_form.html.slim (1.2ms)
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/new.html.slim within layouts/app_component/application (1.6ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+Started POST "/app_component/teams" for 127.0.0.1 at 2018-11-07 09:20:27 -0600
+Processing by AppComponent::TeamsController#create as HTML
+  Parameters: {"utf8"=>"✓", "team"=>{"name"=>"UK"}, "commit"=>"Create Team"}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "UK"], ["created_at", "2018-11-07 15:20:27.726485"], ["updated_at", "2018-11-07 15:20:27.726485"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/app_component/teams
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms)
+Started GET "/app_component/teams" for 127.0.0.1 at 2018-11-07 09:20:27 -0600
+Processing by AppComponent::TeamsController#index as HTML
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/index.html.slim within layouts/app_component/application
+  [1m[36mAppComponent::Team Load (0.2ms)[0m  [1m[34mSELECT "app_component_teams".* FROM "app_component_teams"[0m
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/teams/index.html.slim within layouts/app_component/application (2.2ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.7ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "UofL"], ["created_at", "2018-11-07 15:20:27.893019"], ["updated_at", "2018-11-07 15:20:27.893019"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "UK"], ["created_at", "2018-11-07 15:20:27.895825"], ["updated_at", "2018-11-07 15:20:27.895825"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_games" ("date", "location", "first_team_id", "second_team_id", "winning_team", "first_team_score", "second_team_score", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["date", "2018-11-07 00:00:00"], ["location", "Somewhere"], ["first_team_id", 1], ["second_team_id", 2], ["winning_team", 1], ["first_team_score", 2], ["second_team_score", 3], ["created_at", "2018-11-07 15:20:27.900261"], ["updated_at", "2018-11-07 15:20:27.900261"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "app_component_games" ("date", "location", "first_team_id", "second_team_id", "winning_team", "first_team_score", "second_team_score", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["date", "2018-11-07 00:00:00"], ["location", "Somewhere"], ["first_team_id", 2], ["second_team_id", 1], ["winning_team", 2], ["first_team_score", 2], ["second_team_score", 3], ["created_at", "2018-11-07 15:20:27.902883"], ["updated_at", "2018-11-07 15:20:27.902883"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "app_component_games" ("date", "location", "first_team_id", "second_team_id", "winning_team", "first_team_score", "second_team_score", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["date", "2018-11-07 00:00:00"], ["location", "Somewhere"], ["first_team_id", 2], ["second_team_id", 1], ["winning_team", 2], ["first_team_score", 2], ["second_team_score", 3], ["created_at", "2018-11-07 15:20:27.904823"], ["updated_at", "2018-11-07 15:20:27.904823"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/app_component/" for 127.0.0.1 at 2018-11-07 09:20:27 -0600
+Processing by AppComponent::WelcomeController#show as HTML
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/welcome/show.html.slim within layouts/app_component/application
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/welcome/show.html.slim within layouts/app_component/application (3.2ms)
+Completed 200 OK in 16ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+Started GET "/app_component/prediction/new" for 127.0.0.1 at 2018-11-07 09:20:27 -0600
+Processing by AppComponent::PredictionsController#new as HTML
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/predictions/new.html.slim within layouts/app_component/application
+  [1m[36mAppComponent::Team Load (0.6ms)[0m  [1m[34mSELECT "app_component_teams".* FROM "app_component_teams"[0m
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/predictions/new.html.slim within layouts/app_component/application (11.3ms)
+Completed 200 OK in 34ms (Views: 25.3ms | ActiveRecord: 0.6ms)
+Started POST "/app_component/prediction" for 127.0.0.1 at 2018-11-07 09:20:27 -0600
+Processing by AppComponent::PredictionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "first_team"=>{"id"=>"1"}, "second_team"=>{"id"=>"2"}, "commit"=>"What is it going to be?"}
+  [1m[36mAppComponent::Team Load (0.2ms)[0m  [1m[34mSELECT "app_component_teams".* FROM "app_component_teams"[0m
+  [1m[36mAppComponent::Game Load (0.4ms)[0m  [1m[34mSELECT "app_component_games".* FROM "app_component_games"[0m
+  [1m[36mAppComponent::Team Load (0.2ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAppComponent::Team Load (0.1ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/predictions/create.html.slim within layouts/app_component/application
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/predictions/create.html.slim within layouts/app_component/application (6.4ms)
+Completed 200 OK in 27ms (Views: 9.6ms | ActiveRecord: 0.9ms)
+  [1m[35m (1.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "A"], ["created_at", "2018-11-07 15:20:28.013002"], ["updated_at", "2018-11-07 15:20:28.013002"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "B"], ["created_at", "2018-11-07 15:20:28.016050"], ["updated_at", "2018-11-07 15:20:28.016050"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.7ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "A"], ["created_at", "2018-11-07 15:20:28.021888"], ["updated_at", "2018-11-07 15:20:28.021888"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "B"], ["created_at", "2018-11-07 15:20:28.024917"], ["updated_at", "2018-11-07 15:20:28.024917"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_games" ("date", "location", "first_team_id", "second_team_id", "winning_team", "first_team_score", "second_team_score", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["date", "2018-11-07 00:00:00"], ["location", "Somewhere"], ["first_team_id", 1], ["second_team_id", 2], ["winning_team", 1], ["first_team_score", 2], ["second_team_score", 3], ["created_at", "2018-11-07 15:20:28.027659"], ["updated_at", "2018-11-07 15:20:28.027659"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "app_component_games" ("date", "location", "first_team_id", "second_team_id", "winning_team", "first_team_score", "second_team_score", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["date", "2018-11-07 00:00:00"], ["location", "Somewhere"], ["first_team_id", 1], ["second_team_id", 2], ["winning_team", 2], ["first_team_score", 2], ["second_team_score", 3], ["created_at", "2018-11-07 15:20:28.030060"], ["updated_at", "2018-11-07 15:20:28.030060"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_games" ("date", "location", "first_team_id", "second_team_id", "winning_team", "first_team_score", "second_team_score", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["date", "2018-11-07 00:00:00"], ["location", "Somewhere"], ["first_team_id", 1], ["second_team_id", 2], ["winning_team", 2], ["first_team_score", 2], ["second_team_score", 3], ["created_at", "2018-11-07 15:20:28.032678"], ["updated_at", "2018-11-07 15:20:28.032678"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "A"], ["created_at", "2018-11-07 15:20:28.039180"], ["updated_at", "2018-11-07 15:20:28.039180"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "B"], ["created_at", "2018-11-07 15:20:28.041849"], ["updated_at", "2018-11-07 15:20:28.041849"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "app_component_games" ("date", "location", "first_team_id", "second_team_id", "winning_team", "first_team_score", "second_team_score", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["date", "2018-11-07 00:00:00"], ["location", "Somewhere"], ["first_team_id", 1], ["second_team_id", 2], ["winning_team", 1], ["first_team_score", 2], ["second_team_score", 3], ["created_at", "2018-11-07 15:20:28.044616"], ["updated_at", "2018-11-07 15:20:28.044616"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:28.052593"], ["updated_at", "2018-11-07 15:20:28.052593"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 2"], ["created_at", "2018-11-07 15:20:28.054884"], ["updated_at", "2018-11-07 15:20:28.054884"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by AppComponent::GamesController#new as HTML
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/games/new.html.slim within layouts/app_component/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/games/new.html.slim within layouts/app_component/application (0.4ms)
+Completed 200 OK in 22ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:28.084509"], ["updated_at", "2018-11-07 15:20:28.084509"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 2"], ["created_at", "2018-11-07 15:20:28.086560"], ["updated_at", "2018-11-07 15:20:28.086560"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.8ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:28.092594"], ["updated_at", "2018-11-07 15:20:28.092594"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 2"], ["created_at", "2018-11-07 15:20:28.094559"], ["updated_at", "2018-11-07 15:20:28.094559"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by AppComponent::GamesController#create as HTML
+  Parameters: {"game"=>{"created_at"=>"", "date"=>"2018-11-07 00:00:00 UTC", "first_team_id"=>"1", "first_team_score"=>"2", "id"=>"", "location"=>"", "second_team_id"=>"2", "second_team_score"=>"3", "updated_at"=>"", "winning_team"=>"2"}}
+Unpermitted parameters: :created_at, :id, :updated_at
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mAppComponent::Team Load (0.2ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAppComponent::Team Load (0.2ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/games/new.html.slim within layouts/app_component/application
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/games/new.html.slim within layouts/app_component/application (0.2ms)
+Completed 200 OK in 13ms (Views: 1.1ms | ActiveRecord: 0.7ms)
+  [1m[35m (1.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:28.119264"], ["updated_at", "2018-11-07 15:20:28.119264"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 2"], ["created_at", "2018-11-07 15:20:28.122437"], ["updated_at", "2018-11-07 15:20:28.122437"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by AppComponent::GamesController#create as HTML
+  Parameters: {"game"=>{"created_at"=>"", "date"=>"2018-11-07 00:00:00 UTC", "first_team_id"=>"1", "first_team_score"=>"2", "id"=>"", "location"=>"", "second_team_id"=>"2", "second_team_score"=>"3", "updated_at"=>"", "winning_team"=>"2"}}
+Unpermitted parameters: :created_at, :id, :updated_at
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mAppComponent::Team Load (0.2ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAppComponent::Team Load (0.1ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/games/new.html.slim within layouts/app_component/application
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/games/new.html.slim within layouts/app_component/application (0.1ms)
+Completed 200 OK in 8ms (Views: 0.9ms | ActiveRecord: 0.6ms)
+  [1m[35m (0.8ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:28.143203"], ["updated_at", "2018-11-07 15:20:28.143203"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 2"], ["created_at", "2018-11-07 15:20:28.146441"], ["updated_at", "2018-11-07 15:20:28.146441"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "app_component_games"[0m
+Processing by AppComponent::GamesController#create as HTML
+  Parameters: {"game"=>{"created_at"=>"", "date"=>"2018-11-07 00:00:00 UTC", "first_team_id"=>"1", "first_team_score"=>"2", "id"=>"", "location"=>"Somewhere", "second_team_id"=>"2", "second_team_score"=>"3", "updated_at"=>"", "winning_team"=>"2"}}
+Unpermitted parameters: :created_at, :id, :updated_at
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mAppComponent::Team Load (0.1ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAppComponent::Team Load (0.1ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_games" ("date", "location", "first_team_id", "second_team_id", "winning_team", "first_team_score", "second_team_score", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["date", "2018-11-07 00:00:00"], ["location", "Somewhere"], ["first_team_id", 1], ["second_team_id", 2], ["winning_team", 2], ["first_team_score", 2], ["second_team_score", 3], ["created_at", "2018-11-07 15:20:28.163210"], ["updated_at", "2018-11-07 15:20:28.163210"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/app_component/games/1
+Completed 302 Found in 7ms (ActiveRecord: 0.7ms)
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "app_component_games"[0m
+  [1m[35m (0.7ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:28.171614"], ["updated_at", "2018-11-07 15:20:28.171614"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 2"], ["created_at", "2018-11-07 15:20:28.176247"], ["updated_at", "2018-11-07 15:20:28.176247"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:28.186572"], ["updated_at", "2018-11-07 15:20:28.186572"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 2"], ["created_at", "2018-11-07 15:20:28.189530"], ["updated_at", "2018-11-07 15:20:28.189530"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by AppComponent::GamesController#create as HTML
+  Parameters: {"game"=>{"created_at"=>"", "date"=>"2018-11-07 00:00:00 UTC", "first_team_id"=>"1", "first_team_score"=>"2", "id"=>"", "location"=>"Somewhere", "second_team_id"=>"2", "second_team_score"=>"3", "updated_at"=>"", "winning_team"=>"2"}}
+Unpermitted parameters: :created_at, :id, :updated_at
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mAppComponent::Team Load (0.2ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAppComponent::Team Load (0.1ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_games" ("date", "location", "first_team_id", "second_team_id", "winning_team", "first_team_score", "second_team_score", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["date", "2018-11-07 00:00:00"], ["location", "Somewhere"], ["first_team_id", 1], ["second_team_id", 2], ["winning_team", 2], ["first_team_score", 2], ["second_team_score", 3], ["created_at", "2018-11-07 15:20:28.202740"], ["updated_at", "2018-11-07 15:20:28.202740"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/app_component/games/1
+Completed 302 Found in 10ms (ActiveRecord: 0.8ms)
+  [1m[35m (0.8ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:28.210430"], ["updated_at", "2018-11-07 15:20:28.210430"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 2"], ["created_at", "2018-11-07 15:20:28.212316"], ["updated_at", "2018-11-07 15:20:28.212316"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by AppComponent::GamesController#create as HTML
+  Parameters: {"game"=>{"created_at"=>"", "date"=>"2018-11-07 00:00:00 UTC", "first_team_id"=>"1", "first_team_score"=>"2", "id"=>"", "location"=>"Somewhere", "second_team_id"=>"2", "second_team_score"=>"3", "updated_at"=>"", "winning_team"=>"2"}}
+Unpermitted parameters: :created_at, :id, :updated_at
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mAppComponent::Team Load (0.1ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAppComponent::Team Load (0.1ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_games" ("date", "location", "first_team_id", "second_team_id", "winning_team", "first_team_score", "second_team_score", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["date", "2018-11-07 00:00:00"], ["location", "Somewhere"], ["first_team_id", 1], ["second_team_id", 2], ["winning_team", 2], ["first_team_score", 2], ["second_team_score", 3], ["created_at", "2018-11-07 15:20:28.221266"], ["updated_at", "2018-11-07 15:20:28.221266"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/app_component/games/1
+Completed 302 Found in 8ms (ActiveRecord: 0.6ms)
+  [1m[36mAppComponent::Game Load (0.3ms)[0m  [1m[34mSELECT  "app_component_games".* FROM "app_component_games" ORDER BY "app_component_games"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.8ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:28.230644"], ["updated_at", "2018-11-07 15:20:28.230644"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 2"], ["created_at", "2018-11-07 15:20:28.235134"], ["updated_at", "2018-11-07 15:20:28.235134"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 3"], ["created_at", "2018-11-07 15:20:28.237584"], ["updated_at", "2018-11-07 15:20:28.237584"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 4"], ["created_at", "2018-11-07 15:20:28.238643"], ["updated_at", "2018-11-07 15:20:28.238643"]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_games" ("date", "location", "first_team_id", "second_team_id", "winning_team", "first_team_score", "second_team_score", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["date", "2018-11-07 00:00:00"], ["location", "Somewhere"], ["first_team_id", 3], ["second_team_id", 4], ["winning_team", 2], ["first_team_score", 2], ["second_team_score", 3], ["created_at", "2018-11-07 15:20:28.239479"], ["updated_at", "2018-11-07 15:20:28.239479"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by AppComponent::GamesController#index as HTML
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/games/index.html.slim within layouts/app_component/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/games/index.html.slim within layouts/app_component/application (0.4ms)
+Completed 200 OK in 12ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[36mAppComponent::Game Load (0.1ms)[0m  [1m[34mSELECT "app_component_games".* FROM "app_component_games"[0m
+  [1m[35m (0.7ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:28.258242"], ["updated_at", "2018-11-07 15:20:28.258242"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 2"], ["created_at", "2018-11-07 15:20:28.260884"], ["updated_at", "2018-11-07 15:20:28.260884"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:28.267284"], ["updated_at", "2018-11-07 15:20:28.267284"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 2"], ["created_at", "2018-11-07 15:20:28.270982"], ["updated_at", "2018-11-07 15:20:28.270982"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 3"], ["created_at", "2018-11-07 15:20:28.273830"], ["updated_at", "2018-11-07 15:20:28.273830"]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 4"], ["created_at", "2018-11-07 15:20:28.275174"], ["updated_at", "2018-11-07 15:20:28.275174"]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_games" ("date", "location", "first_team_id", "second_team_id", "winning_team", "first_team_score", "second_team_score", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["date", "2018-11-07 00:00:00"], ["location", "Somewhere"], ["first_team_id", 3], ["second_team_id", 4], ["winning_team", 2], ["first_team_score", 2], ["second_team_score", 3], ["created_at", "2018-11-07 15:20:28.276042"], ["updated_at", "2018-11-07 15:20:28.276042"]]
+  [1m[35m (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by AppComponent::GamesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAppComponent::Game Load (0.2ms)[0m  [1m[34mSELECT  "app_component_games".* FROM "app_component_games" WHERE "app_component_games"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/games/edit.html.slim within layouts/app_component/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/games/edit.html.slim within layouts/app_component/application (0.4ms)
+Completed 200 OK in 14ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:28.297504"], ["updated_at", "2018-11-07 15:20:28.297504"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 2"], ["created_at", "2018-11-07 15:20:28.300805"], ["updated_at", "2018-11-07 15:20:28.300805"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:28.306616"], ["updated_at", "2018-11-07 15:20:28.306616"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 2"], ["created_at", "2018-11-07 15:20:28.309690"], ["updated_at", "2018-11-07 15:20:28.309690"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:28.321240"], ["updated_at", "2018-11-07 15:20:28.321240"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 2"], ["created_at", "2018-11-07 15:20:28.324789"], ["updated_at", "2018-11-07 15:20:28.324789"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 3"], ["created_at", "2018-11-07 15:20:28.328930"], ["updated_at", "2018-11-07 15:20:28.328930"]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 4"], ["created_at", "2018-11-07 15:20:28.330242"], ["updated_at", "2018-11-07 15:20:28.330242"]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "app_component_games" ("date", "location", "first_team_id", "second_team_id", "winning_team", "first_team_score", "second_team_score", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["date", "2018-11-07 00:00:00"], ["location", "Somewhere"], ["first_team_id", 3], ["second_team_id", 4], ["winning_team", 2], ["first_team_score", 2], ["second_team_score", 3], ["created_at", "2018-11-07 15:20:28.332266"], ["updated_at", "2018-11-07 15:20:28.332266"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "app_component_games"[0m
+Processing by AppComponent::GamesController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAppComponent::Game Load (0.3ms)[0m  [1m[34mSELECT  "app_component_games".* FROM "app_component_games" WHERE "app_component_games"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "app_component_games" WHERE "app_component_games"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/app_component/games
+Completed 302 Found in 4ms (ActiveRecord: 0.7ms)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "app_component_games"[0m
+  [1m[35m (0.7ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:28.346189"], ["updated_at", "2018-11-07 15:20:28.346189"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 2"], ["created_at", "2018-11-07 15:20:28.348121"], ["updated_at", "2018-11-07 15:20:28.348121"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 3"], ["created_at", "2018-11-07 15:20:28.352260"], ["updated_at", "2018-11-07 15:20:28.352260"]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 4"], ["created_at", "2018-11-07 15:20:28.353995"], ["updated_at", "2018-11-07 15:20:28.353995"]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "app_component_games" ("date", "location", "first_team_id", "second_team_id", "winning_team", "first_team_score", "second_team_score", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["date", "2018-11-07 00:00:00"], ["location", "Somewhere"], ["first_team_id", 3], ["second_team_id", 4], ["winning_team", 2], ["first_team_score", 2], ["second_team_score", 3], ["created_at", "2018-11-07 15:20:28.357459"], ["updated_at", "2018-11-07 15:20:28.357459"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by AppComponent::GamesController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAppComponent::Game Load (0.2ms)[0m  [1m[34mSELECT  "app_component_games".* FROM "app_component_games" WHERE "app_component_games"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "app_component_games" WHERE "app_component_games"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/app_component/games
+Completed 302 Found in 6ms (ActiveRecord: 0.7ms)
+  [1m[35m (1.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:28.384299"], ["updated_at", "2018-11-07 15:20:28.384299"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 2"], ["created_at", "2018-11-07 15:20:28.390667"], ["updated_at", "2018-11-07 15:20:28.390667"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 3"], ["created_at", "2018-11-07 15:20:28.401305"], ["updated_at", "2018-11-07 15:20:28.401305"]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 4"], ["created_at", "2018-11-07 15:20:28.404669"], ["updated_at", "2018-11-07 15:20:28.404669"]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "app_component_games" ("date", "location", "first_team_id", "second_team_id", "winning_team", "first_team_score", "second_team_score", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["date", "2018-11-07 00:00:00"], ["location", "Somewhere"], ["first_team_id", 3], ["second_team_id", 4], ["winning_team", 2], ["first_team_score", 2], ["second_team_score", 3], ["created_at", "2018-11-07 15:20:28.407255"], ["updated_at", "2018-11-07 15:20:28.407255"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by AppComponent::GamesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAppComponent::Game Load (0.2ms)[0m  [1m[34mSELECT  "app_component_games".* FROM "app_component_games" WHERE "app_component_games"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/games/show.html.slim within layouts/app_component/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/games/show.html.slim within layouts/app_component/application (0.3ms)
+Completed 200 OK in 19ms (Views: 1.6ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.7ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:28.437460"], ["updated_at", "2018-11-07 15:20:28.437460"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 2"], ["created_at", "2018-11-07 15:20:28.444206"], ["updated_at", "2018-11-07 15:20:28.444206"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:28.453194"], ["updated_at", "2018-11-07 15:20:28.453194"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 2"], ["created_at", "2018-11-07 15:20:28.455762"], ["updated_at", "2018-11-07 15:20:28.455762"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 3"], ["created_at", "2018-11-07 15:20:28.459173"], ["updated_at", "2018-11-07 15:20:28.459173"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 4"], ["created_at", "2018-11-07 15:20:28.460891"], ["updated_at", "2018-11-07 15:20:28.460891"]]
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "app_component_games" ("date", "location", "first_team_id", "second_team_id", "winning_team", "first_team_score", "second_team_score", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["date", "2018-11-07 00:00:00"], ["location", "Somewhere"], ["first_team_id", 3], ["second_team_id", 4], ["winning_team", 2], ["first_team_score", 2], ["second_team_score", 3], ["created_at", "2018-11-07 15:20:28.462635"], ["updated_at", "2018-11-07 15:20:28.462635"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by AppComponent::GamesController#update as HTML
+  Parameters: {"game"=>{"created_at"=>"", "date"=>"2018-11-07 00:00:00 UTC", "first_team_id"=>"1", "first_team_score"=>"2", "id"=>"", "location"=>"", "second_team_id"=>"2", "second_team_score"=>"3", "updated_at"=>"", "winning_team"=>"2"}, "id"=>"1"}
+  [1m[36mAppComponent::Game Load (0.3ms)[0m  [1m[34mSELECT  "app_component_games".* FROM "app_component_games" WHERE "app_component_games"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: :created_at, :id, :updated_at
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mAppComponent::Team Load (0.4ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAppComponent::Team Load (0.2ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/games/edit.html.slim within layouts/app_component/application
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/games/edit.html.slim within layouts/app_component/application (0.1ms)
+Completed 200 OK in 25ms (Views: 1.5ms | ActiveRecord: 1.1ms)
+  [1m[35m (1.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:28.501938"], ["updated_at", "2018-11-07 15:20:28.501938"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 2"], ["created_at", "2018-11-07 15:20:28.504608"], ["updated_at", "2018-11-07 15:20:28.504608"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 3"], ["created_at", "2018-11-07 15:20:28.510262"], ["updated_at", "2018-11-07 15:20:28.510262"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 4"], ["created_at", "2018-11-07 15:20:28.512632"], ["updated_at", "2018-11-07 15:20:28.512632"]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_games" ("date", "location", "first_team_id", "second_team_id", "winning_team", "first_team_score", "second_team_score", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["date", "2018-11-07 00:00:00"], ["location", "Somewhere"], ["first_team_id", 3], ["second_team_id", 4], ["winning_team", 2], ["first_team_score", 2], ["second_team_score", 3], ["created_at", "2018-11-07 15:20:28.513763"], ["updated_at", "2018-11-07 15:20:28.513763"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by AppComponent::GamesController#update as HTML
+  Parameters: {"game"=>{"created_at"=>"", "date"=>"2018-11-07 00:00:00 UTC", "first_team_id"=>"1", "first_team_score"=>"2", "id"=>"", "location"=>"", "second_team_id"=>"2", "second_team_score"=>"3", "updated_at"=>"", "winning_team"=>"2"}, "id"=>"1"}
+  [1m[36mAppComponent::Game Load (0.1ms)[0m  [1m[34mSELECT  "app_component_games".* FROM "app_component_games" WHERE "app_component_games"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: :created_at, :id, :updated_at
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mAppComponent::Team Load (0.1ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAppComponent::Team Load (0.1ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/games/edit.html.slim within layouts/app_component/application
+  Rendered /Users/Aaron/dev/cbra/sportsball_ch3/components/app_component/app/views/app_component/games/edit.html.slim within layouts/app_component/application (0.1ms)
+Completed 200 OK in 8ms (Views: 1.3ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:28.536012"], ["updated_at", "2018-11-07 15:20:28.536012"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 2"], ["created_at", "2018-11-07 15:20:28.539054"], ["updated_at", "2018-11-07 15:20:28.539054"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 3"], ["created_at", "2018-11-07 15:20:28.543880"], ["updated_at", "2018-11-07 15:20:28.543880"]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 4"], ["created_at", "2018-11-07 15:20:28.557182"], ["updated_at", "2018-11-07 15:20:28.557182"]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "app_component_games" ("date", "location", "first_team_id", "second_team_id", "winning_team", "first_team_score", "second_team_score", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["date", "2018-11-07 00:00:00"], ["location", "Somewhere"], ["first_team_id", 3], ["second_team_id", 4], ["winning_team", 2], ["first_team_score", 2], ["second_team_score", 3], ["created_at", "2018-11-07 15:20:28.559010"], ["updated_at", "2018-11-07 15:20:28.559010"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by AppComponent::GamesController#update as HTML
+  Parameters: {"game"=>{"created_at"=>"", "date"=>"2018-11-07 00:00:00 UTC", "first_team_id"=>"1", "first_team_score"=>"2", "id"=>"", "location"=>"Somewhere", "second_team_id"=>"2", "second_team_score"=>"3", "updated_at"=>"", "winning_team"=>"2"}, "id"=>"1"}
+  [1m[36mAppComponent::Game Load (0.2ms)[0m  [1m[34mSELECT  "app_component_games".* FROM "app_component_games" WHERE "app_component_games"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: :created_at, :id, :updated_at
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mAppComponent::Team Load (0.3ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAppComponent::Team Load (0.2ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "app_component_games" SET "first_team_id" = ?, "second_team_id" = ?, "updated_at" = ? WHERE "app_component_games"."id" = ?[0m  [["first_team_id", 1], ["second_team_id", 2], ["updated_at", "2018-11-07 15:20:28.579590"], ["id", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/app_component/games/1
+Completed 302 Found in 15ms (ActiveRecord: 1.3ms)
+  [1m[35m (1.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (2.3ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:28.592759"], ["updated_at", "2018-11-07 15:20:28.592759"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 2"], ["created_at", "2018-11-07 15:20:28.611495"], ["updated_at", "2018-11-07 15:20:28.611495"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.8ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.6ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:28.625249"], ["updated_at", "2018-11-07 15:20:28.625249"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 2"], ["created_at", "2018-11-07 15:20:28.632062"], ["updated_at", "2018-11-07 15:20:28.632062"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 3"], ["created_at", "2018-11-07 15:20:28.648454"], ["updated_at", "2018-11-07 15:20:28.648454"]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 4"], ["created_at", "2018-11-07 15:20:28.678955"], ["updated_at", "2018-11-07 15:20:28.678955"]]
+  [1m[35mSQL (2.0ms)[0m  [1m[32mINSERT INTO "app_component_games" ("date", "location", "first_team_id", "second_team_id", "winning_team", "first_team_score", "second_team_score", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["date", "2018-11-07 00:00:00"], ["location", "Somewhere"], ["first_team_id", 3], ["second_team_id", 4], ["winning_team", 2], ["first_team_score", 2], ["second_team_score", 3], ["created_at", "2018-11-07 15:20:28.680469"], ["updated_at", "2018-11-07 15:20:28.680469"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by AppComponent::GamesController#update as HTML
+  Parameters: {"game"=>{"date"=>"2018-11-06 15:20:28 UTC"}, "id"=>"1"}
+  [1m[36mAppComponent::Game Load (0.1ms)[0m  [1m[34mSELECT  "app_component_games".* FROM "app_component_games" WHERE "app_component_games"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mAppComponent::Team Load (0.1ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mAppComponent::Team Load (0.3ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "app_component_games" SET "date" = ?, "updated_at" = ? WHERE "app_component_games"."id" = ?[0m  [["date", "2018-11-06 15:20:28"], ["updated_at", "2018-11-07 15:20:28.701096"], ["id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/app_component/games/1
+Completed 302 Found in 16ms (ActiveRecord: 1.1ms)
+  [1m[36mAppComponent::Game Load (0.6ms)[0m  [1m[34mSELECT  "app_component_games".* FROM "app_component_games" WHERE "app_component_games"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (2.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 1"], ["created_at", "2018-11-07 15:20:28.724208"], ["updated_at", "2018-11-07 15:20:28.724208"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 2"], ["created_at", "2018-11-07 15:20:28.734699"], ["updated_at", "2018-11-07 15:20:28.734699"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 3"], ["created_at", "2018-11-07 15:20:28.744991"], ["updated_at", "2018-11-07 15:20:28.744991"]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "app_component_teams" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Some name 4"], ["created_at", "2018-11-07 15:20:28.748472"], ["updated_at", "2018-11-07 15:20:28.748472"]]
+  [1m[35mSQL (13.6ms)[0m  [1m[32mINSERT INTO "app_component_games" ("date", "location", "first_team_id", "second_team_id", "winning_team", "first_team_score", "second_team_score", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["date", "2018-11-07 00:00:00"], ["location", "Somewhere"], ["first_team_id", 3], ["second_team_id", 4], ["winning_team", 2], ["first_team_score", 2], ["second_team_score", 3], ["created_at", "2018-11-07 15:20:28.751463"], ["updated_at", "2018-11-07 15:20:28.751463"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by AppComponent::GamesController#update as HTML
+  Parameters: {"game"=>{"created_at"=>"", "date"=>"2018-11-07 00:00:00 UTC", "first_team_id"=>"1", "first_team_score"=>"2", "id"=>"", "location"=>"Somewhere", "second_team_id"=>"2", "second_team_score"=>"3", "updated_at"=>"", "winning_team"=>"2"}, "id"=>"1"}
+  [1m[36mAppComponent::Game Load (0.2ms)[0m  [1m[34mSELECT  "app_component_games".* FROM "app_component_games" WHERE "app_component_games"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: :created_at, :id, :updated_at
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mAppComponent::Team Load (0.1ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAppComponent::Team Load (0.4ms)[0m  [1m[34mSELECT  "app_component_teams".* FROM "app_component_teams" WHERE "app_component_teams"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (0.8ms)[0m  [1m[33mUPDATE "app_component_games" SET "first_team_id" = ?, "second_team_id" = ?, "updated_at" = ? WHERE "app_component_games"."id" = ?[0m  [["first_team_id", 1], ["second_team_id", 2], ["updated_at", "2018-11-07 15:20:28.804429"], ["id", 1]]
+  [1m[35m (1.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/app_component/games/1
+Completed 302 Found in 23ms (ActiveRecord: 2.6ms)
+  [1m[35m (1.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
